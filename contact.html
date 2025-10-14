@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kennel Arena Dog Boarding Center</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+<style>
+
+body {
+  background-image: url("C:/Users/himas/OneDrive - Haaga-Helia Oy Ab/Digital Service/webimg/ee.jpg" );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+.cn {
+	width: 160px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 690px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .4s ease;
+
+}
+.cn a {
+	color: white;
+	transition: .3s ease;
+}
+.cn:hover {
+	background-color: orange;
+}
+	
+.main {
+  widht: 400px;
+  height: 50px;
+}
+ul {
+  float: left;
+  margin-left: 400px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+	color: orange;
+}
+.contact-info h2 {
+	font-size: 35px;
+	color: green;
+	margin-left: 20px;
+}
+.contact-info p {
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 30px;
+	line-height: 30px;	
+}
+.contact-container {
+  	display: flex;
+	flex-direction: column;
+  	background-color: transparent;
+	justify-content: flex-end;
+	width: 30%; 
+	margin-left: 950px;
+	margin-top: -28%;
+	
+}
+
+.contact-container div {
+  	background-color: transparent;
+  	width: 300px;
+  	margin: 10px;
+ 	padding: 10px;
+  	text-align: center;
+  	line-height: 25px;
+  	font-size: 18px;
+}
+.contact-form input {
+  	width: 120%;
+  	padding: 12px;
+  	margin: 10px 0;
+  	border: 1px;
+  	border-radius: 8px;
+  	font-size: 16px;
+
+}
+
+.contact-form .btn {
+  	background-color: orange;
+  	color: white;
+  	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+  	border: none;
+  	border-radius: 8px;
+  	font-size: 20px;
+	margin-left: 100px;
+  	cursor: pointer;
+  	transition: 0.3s ease;
+}
+
+.contact-form .btn:hover {
+  	background-color: darkorange;
+}
+	
+</style>
+</head>
+<body>
+<div class="main">
+    <div class="navbar">
+	<button class="cn"> <a href="contact.html"> BOOK NOW </a> </button>
+
+  	<div class= "menu">
+   		<ul>
+      			<li><a href="homepage.html"> HOME </a> </li>
+      			<li><a href="boarding.html"> BOARDING </a> </li>
+      			<li><a href="daycare.html"> DAYCARE </a> </li>
+      			<li><a href="contact.html"> CONTACT </a> </li>
+    		</ul>
+  	</div>
+	<br>
+	 <div class="contact-info">
+			 <h2> Thank You for visiting <br> Kennel Arena Dog Boarding Center</h2>
+			 <p>Trusted pet sitting service in the Helsinki area.We would love to hear from you and help you....</p>
+     			 <p><strong>📍 Address:</strong> Kennel Arena Dog Boarding Center, Helsinki, Finland</p>
+      			 <p><strong>📞 Phone:</strong> +358442284168</p>
+     			 <p><strong>✉️ Email:</strong> info@kennelarena.com</p>
+      			 <p><strong>⏰ Opening Hours:</strong><br>
+        			 Monday – Sunday: 7:00 a.m. – 7:00 p.m.<br>
+       		  	 Boarding checkout by 11:00 a.m.</p>
+    	</div>
+  	 <div class="contact-container">
+		<div class="contact-form">
+		<form action="new" method="post">
+			<input type="name" name="name" placeholder="Your Name">
+			<input type="email" name="email" placeholder="Your Email">
+			<input type="contactno" name="contactno" placeholder="Contact Number">
+			<input type="requried" name="required" placeholder="Required Service">
+			<input type="note" name="note" placeholder="Special Note">
+			<br>
+			<br>
+			<button class="btn"><a href="thankyou.html">Submit</a></button>
+		</form>
+		</div>
+	</div>
+    </div>
+</div>
+</body>
+</html>
