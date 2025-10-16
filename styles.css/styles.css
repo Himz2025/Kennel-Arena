@@ -1,0 +1,151 @@
+/* index pagge syles */
+body {
+  background-image: url("C:/Users/himas/OneDrive - Haaga-Helia Oy Ab/Digital Service/webimg/ll.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+.cn {
+	width: 160px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 700px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .4s ease;
+
+}
+.cn a {
+	color: white;
+	transition: .3s ease;
+}
+.cn:hover {
+	background-color: orange;
+}
+	
+.menu {
+  widht: 400px;
+  height: 70px;
+}
+ul {
+  float: left;
+  margin-left: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+	color: orange;
+}
+.content {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: orange;
+	position: relative;
+}
+.content h1 {
+	font-size: 50px;
+	font-family: 'Times New Roman';
+	margin-top: 5%;
+	margin-bottom: 1%;
+	letter-spacing: 2px;
+}
+.content p {
+	font-family: 'Arial';
+	letter-spacing: 1,2px;
+	color: white;
+}
+.form {
+	widht: 250px;
+	height: 380px;
+	position: absolute;
+	top: -70px;
+	left: 800px;
+	boarder-radius: 10px;
+	padding: 25px;
+	text-align: center;
+}
+.form h2 {
+	color: black;
+	font-size: 22px;
+	margin-left: 85px;
+	background-color: orange;
+	padding: 15px;
+	border-radius: 10px;
+	width: 150px;
+	height: 20px;
+}
+.form input {
+	color: white;
+	width : 240px;
+	height: 35px;
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid orange;
+	font-size: 15px;
+}
+.form input:focus {
+	outline: none;
+}
+.btn {
+	width: 240px;
+	height: 40px;
+	background: white;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.s ease;
+}
+.btn:hover {
+	background: orange;
+	color: white;
+}
+.btn a{
+	color : black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.link {
+	padding: 10px;
+	font-size: 17px;
+	margin-top: 1px;
+	transition: 0.4s ease;
+	width: 180px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 70px;	
+
+}
+.form .link a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.form .link a:hover{
+	background: orange;
+}
